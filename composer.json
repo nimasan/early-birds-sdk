@@ -1,0 +1,15 @@
+{
+  "name": "nimajneb-torram/early-birds-sdk",
+  "description": "Early Birds API SDK",
+  "minimum-stability": "dev",
+  "license": "GNU GPL v3",
+  "authors": [
+    {
+      "name": "Benjamin MARROT",
+      "email": "benjamin.marrot@developpeur-web-tlse.fr"
+    }
+  ],
+  "require-dev": {
+    "behat/behat": "^3.2@dev"
+  }
+}
