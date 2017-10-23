@@ -2,7 +2,7 @@
   "name": "nimajneb-torram/early-birds-sdk",
   "description": "Early Birds API SDK",
   "minimum-stability": "dev",
-  "license": "GNU GPL v3",
+  "license": "BSD 3-clause",
   "authors": [
     {
       "name": "Benjamin MARROT",
@@ -10,6 +10,10 @@
     }
   ],
   "require-dev": {
-    "behat/behat": "^3.2@dev"
+    "behat/behat": "^3.2@dev",
+    "phpunit/phpunit": "^6.5@dev"
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.2@dev"
   }
 }
