@@ -1,19 +1,28 @@
 {
-  "name": "nimajneb-torram/early-birds-sdk",
-  "description": "Early Birds API SDK",
-  "minimum-stability": "dev",
-  "license": "BSD 3-clause",
-  "authors": [
-    {
-      "name": "Benjamin MARROT",
-      "email": "benjamin.marrot@developpeur-web-tlse.fr"
+    "name": "nimasan/early-birds-sdk",
+    "description": "Early Birds API SDK",
+    "minimum-stability": "stable",
+    "license": "BSD 3-clause",
+    "authors": [
+        {
+            "name": "Benjamin MARROT",
+            "email": "benjamin@developpeur-web-tlse.fr"
+        }
+    ],
+    "require-dev": {
+        "behat/behat": "^3.10.0"
+    },
+    "require": {
+        "php": ">=7.0 <7.5 || >=8.0 < 8.1",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^6.0"
+    },
+    "autoload": {
+        "Nimasan": "src/Nimasan"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0"
+        }
     }
-  ],
-  "require-dev": {
-    "behat/behat": "^3.2@dev",
-    "phpunit/phpunit": "^6.5@dev"
-  },
-  "require": {
-    "guzzlehttp/guzzle": "^6.2@dev"
-  }
 }
